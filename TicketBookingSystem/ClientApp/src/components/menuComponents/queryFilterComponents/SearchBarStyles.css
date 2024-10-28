@@ -1,0 +1,40 @@
+.search-bar{
+	width: 400px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.search-bar > input{
+	background-color: #D9D9D9;
+	border: 2px solid #494949;
+	border-radius: 25px;
+	width: 300px;
+	height: 40px;
+	text-indent: 5px;
+}
+.search-bar > svg{
+	background-color: #D9D9D9;
+	border: 2px solid #494949;
+	width: 80px;
+	height: 40px;
+	border-radius: 25px;
+}
+.search-bar > svg:hover{
+	fill: #B9B9B9;
+	background-color: #B9B9B9;
+}
+@media (min-width: 1250px){
+  .search-bar{
+	width: 520px;
+	height: 50px;
+  }
+  .search-bar > input{
+	width: 400px;
+	height: 50px;
+	text-indent: 10px;
+  }
+  .search-bar > svg{
+	width: 100px;
+	height: 50px;
+  }
+}

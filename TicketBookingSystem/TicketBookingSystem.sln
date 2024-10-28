@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBookingSystem", "TicketBookingSystem.csproj", "{42CD753C-CF2A-40B9-8ABF-DC1304F56215}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Docker|Any CPU = Docker|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Docker|Any CPU.ActiveCfg = Docker|Any CPU
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Docker|Any CPU.Build.0 = Docker|Any CPU
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CD753C-CF2A-40B9-8ABF-DC1304F56215}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EF9DC2A-52A6-4E51-AB8A-EF8CD4AB0732}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,130 @@
+.filter-container{
+	position: relative;
+	user-select: none;
+}
+.filter-inner-box{
+	position: absolute;
+	background-color: #D9D9D9;
+	border-radius: 25px;
+}
+.filter-show-box:hover{
+	background-color: #B9B9B9;
+	transition: 0.5s;
+}
+.filter-show-box{
+	transition: 0.3s;
+	left:0px;
+	top:0px;
+	width: 125px;
+	height: 200px;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.filter-show-box > p{
+	color: #000;
+	text-align: center;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 10px;
+	height: 36px;
+}
+.filter-show-box > div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 40px;
+}
+.filter-show-box > div > svg{
+	stroke: #000;
+	width: 25px;
+	height: 12px;
+}
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 16px;
+	margin: 10px 20px;
+	font-family: inter;
+}
+.text-row{
+	text-align: left;
+	font-size: 16px;
+	margin: 0px 20px;
+	font-family: inter;
+}
+.flex-row > input{
+	width: 110px;
+	background-color: #E9E9E9;
+	cursor: pointer;
+}
+.flex-row >select{
+	background-color: #E9E9E9;
+	cursor: pointer;
+	width : 60%;
+}
+.filter-content-box{
+	left:0px;
+	top:50px;
+	width: 350px;
+	flex-shrink: 0;
+	border: 2px solid #494949;
+}
+.button-height{
+	height: 40px;
+}
+@media (min-width: 1250px){
+  .filter-show-box{
+	left:0px;
+	top:0px;
+	width: 170px;
+	height: 200px;
+  }
+  .button-height{
+	height: 50px;
+  }
+  .filter-show-box > p{
+	font-size: 16px;
+	width: 126px;
+	height: 50px;
+	margin-right: 0px;
+  }
+  .filter-show-box > div{
+	height: 50px;
+	width: 30px;
+	margin-right: 17px;
+  }
+  .filter-show-box > div > svg{
+  	width: 30px;
+  	height: 15px;
+  }
+  .flex-row{
+	font-size: 16px;
+	margin: 10px 20px;
+  }
+  .text-row{
+	font-size: 16px;
+	margin: 0px 20px;
+  }
+  .flex-row > input{
+	width: 110px;
+  }
+  .flex-row >select{
+	width : 60%;
+  }
+  .filter-show-box > svg{
+	width: 10px;
+	height: 12px;
+  }
+  .filter-content-box{
+	left:0px;
+	top:50px;
+	width: 350px;
+  }
+}

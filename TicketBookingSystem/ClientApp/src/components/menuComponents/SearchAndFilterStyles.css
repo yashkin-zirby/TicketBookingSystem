@@ -1,0 +1,11 @@
+.search-bar-with-filter{
+	display: flex;
+	justify-content: space-between;
+	width: 540px;
+}
+
+@media (min-width: 1250px){
+  .search-bar-with-filter{
+	width: 710px;
+  }
+}

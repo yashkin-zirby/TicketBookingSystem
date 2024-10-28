@@ -1,0 +1,150 @@
+﻿.flex-with-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.profile-box{
+    background: #D9D9D9;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.change-profile-data-box {
+    display: flex;
+    min-width: 60%;
+    margin: 20px auto;
+    flex-direction: column;
+}
+.change-profile-data-box > button{
+    background: #494949;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.change-profile-row {
+    display: flex;
+    margin: 5px 0px;
+    
+    justify-content: space-between;
+    font-size: 20px;
+}
+.change-profile-row > p{
+    margin: 0px;
+}
+.change-profile-row > div{
+    overflow-y: auto;
+    height: 36px;
+    border: 1px solid gray;
+    user-select: none;
+    width: 300px;
+    text-align: center;
+    background: #F0F0F0;
+}
+.change-profile-row > input{
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+}
+.change-profile-picture-box {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #494949;
+    margin: 20px;
+}
+.change-profile-picture-container {
+    position: relative;
+    overflow: clip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    border-radius: 100%;
+    background: #F0F0F0;
+}
+.change-profile-picture-box > svg {
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    right: 10px;
+}
+.change-profile-picture-box > svg:hover{
+    stroke: #494949;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.change-profile-picture-container > svg{
+    width: 80%;
+    height: 80%;
+}
+.change-profile-picture-container > img{
+    width: 100%;
+    height: 100%;
+}
+.upload-profile-button {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    position: absolute;
+    opacity: 0;
+}
+.visible{
+    opacity: 1;
+}
+.upload-profile-send-button {
+}
+.page-title {
+    margin: 20px 24px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.paging-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+    margin-top: auto;
+}
+.paging-container > div{
+    display: flex;
+    align-items: center;
+    background-color: #E0E0E0;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 40px;
+    padding: 0px 10px;
+    user-select:none;
+    color: #0094ff;
+    text-decoration: underline;
+}
+.paging-container > div:hover{
+    cursor: pointer;
+}
+.paging-container > p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.paging-container > .current-page{
+    color: black;
+    text-decoration: none;
+    background-color: #E0FFFF;
+}
